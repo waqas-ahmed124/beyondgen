@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello from your-script.sh!"
+echo "Hello from your-script.shd!"
