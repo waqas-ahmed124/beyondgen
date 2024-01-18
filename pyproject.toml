@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "wilkins"
+version = "0.1.0"
+description = ""
+authors = ["Faisal Khan <faisal@beyondgen.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pandas = "^2.1.1"
+opencv-python = "^4.8.1.78"
+openpyxl = "^3.1.2"
+python-pptx = "^0.6.22"
+numpy = "^1.26.1"
+PyMuPDF = "^1.19.6" 
+requests = "^2.28.1" 
+scikit-image = "^0.22.0"
+azure-identity = "^1.15.0"
+azure-storage-blob = "^12.19.0"
+python-dotenv = "^1.0.0"
+beautifulsoup4 = "^4.12.2"
+extract-msg = "^0.46.2"
+python-docx = "^1.1.0"
+boxsdk = "^3.9.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.8.0"
+pre-commit = "^3.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
